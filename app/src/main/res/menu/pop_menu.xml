@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_help"
+        android:id="@+id/pOne"
+        android:title="contact">
+    </item>
+
+    <item
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_dialog_email"
+        android:id="@+id/pTwo"
+        android:title="Email us">
+    </item>
+
+    <item
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_call"
+        android:id="@+id/pThree"
+        android:title="Call us">
+    </item>
+
+    <item
+        android:id="@+id/pFour"
+        android:title="Logout">
+    </item>
+
+
+</menu>
